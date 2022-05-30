@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .Nav-menu-container {
-    background-color: aquamarine;
+    background-color: black;
     padding: 20px;
 }
 
@@ -18,23 +18,16 @@ nav a {
 }
 
 .header {
-    display: -ms-grid;
     display: grid;
-    grid-auto-columns: 1fr;
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    -ms-grid-rows: auto;
-    grid-template-rows: auto;
-    justify-items: center;
+    place-items: center;
+    min-height: 500px; 
     background-image: url("/assets/8345185_orig.jpeg");
     background-size: cover;
-    height: 500px;
+    
 }
 
 .header_content-wrapper {
-    
+
     justify-items: center;
     max-width: 600px;
     margin: auto;
